@@ -1,0 +1,40 @@
+.listChecks1Icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contentEvaluation {
+  position: relative;
+  line-height: 31px;
+  font-weight: 500;
+}
+.iconTitleContainerDuplicate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.simpleCorrectionsFor {
+  align-self: stretch;
+  height: 52px;
+  position: relative;
+  line-height: 26px;
+  color: var(--color-gray-500);
+  display: flex;
+  align-items: center;
+}
+.aiKitfeature {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--body-m-size);
+  color: var(--color-white);
+  font-family: var(--heading-6);
+}

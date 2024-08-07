@@ -1,0 +1,118 @@
+.heading2 {
+  margin: 0;
+  width: 354px;
+  height: 130px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 65px;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.featureRow {
+  flex: 0.8043;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-44xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-width: 241px;
+}
+.featureList,
+.featureRow,
+.featureRow1 {
+  display: flex;
+  max-width: 100%;
+}
+.featureRow1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  min-width: 241px;
+}
+.featureList {
+  width: 1086px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-41xl);
+  font-size: var(--body-m-size);
+}
+.featuresChild {
+  width: 857px;
+  height: 79px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.features,
+.featuresWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.features {
+  flex: 1;
+  background: linear-gradient(107.08deg, #190d2e, #020103);
+  border: 1px solid var(--color-gray-700);
+  flex-direction: column;
+  padding: var(--padding-55xl) var(--padding-31xl);
+  gap: var(--gap-21xl);
+}
+.featuresWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-59xl);
+  text-align: left;
+  font-size: var(--heading-2-size);
+  color: var(--color-white);
+  font-family: var(--heading-6);
+}
+@media screen and (max-width: 1200px) {
+  .featureList {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .heading2 {
+    font-size: var(--font-size-26xl);
+    line-height: 52px;
+  }
+  .featureList {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .features {
+    gap: var(--gap-xl);
+    padding: var(--padding-29xl) var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .featuresWrapper {
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading2 {
+    font-size: var(--font-size-15xl);
+    line-height: 39px;
+  }
+  .featureRow {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+    flex: 1;
+  }
+  .featureRow,
+  .featureRow1 {
+    gap: var(--gap-xl);
+  }
+}

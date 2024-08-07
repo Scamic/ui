@@ -1,0 +1,41 @@
+.gauge1Icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.title {
+  position: relative;
+  line-height: 31px;
+  font-weight: 500;
+}
+.iconTitleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.aiKitfeature,
+.body {
+  align-self: stretch;
+  display: flex;
+}
+.body {
+  height: 52px;
+  position: relative;
+  line-height: 26px;
+  color: var(--color-gray-500);
+  align-items: center;
+}
+.aiKitfeature {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--body-m-size);
+  color: var(--color-white);
+  font-family: var(--heading-6);
+}

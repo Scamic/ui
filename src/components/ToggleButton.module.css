@@ -1,0 +1,27 @@
+.toggleBackground,
+.toggleForeground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-blueviolet-200);
+}
+.toggleForeground {
+  height: 80%;
+  width: 48.48%;
+  top: 10%;
+  right: 6.06%;
+  bottom: 10%;
+  left: 45.45%;
+  background-color: var(--color-ghostwhite);
+  z-index: 1;
+}
+.toggleButton {
+  width: 33px;
+  height: 20px;
+  position: relative;
+}

@@ -1,0 +1,278 @@
+.heading2 {
+  margin: 0;
+  width: 289px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 48px;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.pricingHeadingContainer {
+  width: 941px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.body {
+  height: 62px;
+  width: 433px;
+  position: relative;
+  line-height: 31px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.bodyContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.bodyContainer,
+.planComparison,
+.toggleContainer {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.toggleContainer {
+  align-self: stretch;
+  height: 31px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.planComparison {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  min-width: 230px;
+}
+.patternIcon,
+.proCardBackground,
+.proPlanStyling {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.proCardBackground {
+  bottom: 4px;
+  box-shadow: 0 10px 74px 10px rgba(78, 0, 192, 0.41);
+  border-radius: var(--br-3xs);
+  background: linear-gradient(180deg, #010002, #361764);
+}
+.patternIcon,
+.proPlanStyling {
+  bottom: 0;
+}
+.patternIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.proPlanStyling {
+  margin: 0 !important;
+}
+.mo,
+.pro {
+  position: relative;
+}
+.pro {
+  margin: 0;
+  font-size: inherit;
+  line-height: 31px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.mo {
+  align-self: stretch;
+  font-size: var(--body-m-size);
+  line-height: 26px;
+  color: var(--color-gray-500);
+}
+.proPricing {
+  width: 147px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.icons {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 15px;
+}
+.keywordOptimization {
+  position: relative;
+  line-height: 12px;
+}
+.pricingRow,
+.seoMonitoring {
+  display: flex;
+  align-items: center;
+}
+.pricingRow {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-8xs);
+}
+.seoMonitoring {
+  width: 143px;
+  position: relative;
+  line-height: 12px;
+  flex-shrink: 0;
+}
+.pricingRows,
+.proPricingDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pricingRows {
+  font-size: var(--body-s-size);
+}
+.proPricingDetails {
+  gap: var(--gap-22xl);
+  z-index: 3;
+}
+.proPlanSeparator {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  z-index: 1;
+  margin-top: -231px;
+}
+.proPlanInfo {
+  align-self: stretch;
+  height: 314px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pricingCard,
+.pricingPlans,
+.proPlanInfo {
+  display: flex;
+  align-items: flex-start;
+}
+.pricingCard {
+  flex: 0.8697;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-93xl);
+  min-width: 230px;
+}
+.pricingPlans {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.pricingBody,
+.pricingToggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pricingToggle {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-34xl);
+  text-align: left;
+  font-size: var(--body-m-size);
+  color: var(--color-gray-600);
+}
+.pricingBody {
+  width: 941px;
+  align-items: flex-start;
+  gap: var(--gap-8xl);
+  max-width: 100%;
+  font-size: var(--body-l-size);
+}
+.pricing,
+.pricingWrapper {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pricing {
+  flex: 1;
+  background: radial-gradient(50% 50%at 50% 50%, rgba(86, 41, 157, 0), #020103);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-xl);
+  gap: var(--gap-21xl);
+}
+.pricingWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  text-align: center;
+  font-size: var(--heading-2-size);
+  color: var(--color-white);
+  font-family: var(--heading-6);
+}
+@media screen and (max-width: 1050px) {
+  .heading2 {
+    font-size: var(--font-size-26xl);
+    line-height: 52px;
+  }
+  .pricingPlans {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .pricingToggle {
+    gap: var(--gap-7xl);
+  }
+  .pricing {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading2 {
+    font-size: var(--font-size-15xl);
+    line-height: 39px;
+  }
+  .body,
+  .pro {
+    font-size: var(--body-m-size);
+    line-height: 25px;
+  }
+  .pro {
+    font-size: var(--font-size-lgi);
+  }
+  .pricingCard {
+    gap: var(--gap-37xl);
+    flex: 1;
+  }
+}

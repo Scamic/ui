@@ -1,0 +1,26 @@
+.startForFree {
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.01em;
+  line-height: 31px;
+  font-weight: 500;
+  font-family: var(--heading-6);
+  color: var(--color-black);
+  text-align: center;
+}
+.ctaS {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) var(--padding-mini);
+  background-color: var(--color-white);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 2;
+}
+.ctaS:hover {
+  background-color: var(--color-gainsboro-100);
+}

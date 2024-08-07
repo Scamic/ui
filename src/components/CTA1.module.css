@@ -1,0 +1,30 @@
+.joinWaitlist {
+  position: relative;
+  font-size: var(--body-s-size);
+  line-height: 26px;
+  font-family: var(--heading-6);
+  color: var(--color-white);
+  text-align: left;
+}
+.cta {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-700);
+  padding: var(--padding-9xs) var(--padding-xl);
+  background-color: var(--color-darkslategray);
+  align-self: stretch;
+  box-shadow: 0 0 6px 3px rgba(255, 255, 255, 0.25) inset;
+  backdrop-filter: blur(14px);
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.cta:hover {
+  background-color: var(--color-dimgray);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}

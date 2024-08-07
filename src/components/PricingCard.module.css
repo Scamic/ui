@@ -1,0 +1,128 @@
+.pricingCardChild {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--color-gray-700);
+  box-sizing: border-box;
+}
+.mo,
+.pricing {
+  position: relative;
+}
+.pricing {
+  margin: 0;
+  font-size: inherit;
+  line-height: 31px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.mo {
+  align-self: stretch;
+  font-size: var(--body-m-size);
+  line-height: 26px;
+  color: var(--color-gray-500);
+}
+.pricingParent {
+  width: 147px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.icons {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 15px;
+}
+.keywordOptimization {
+  position: relative;
+  line-height: 12px;
+}
+.pricingRow,
+.seoMonitoring {
+  display: flex;
+  align-items: center;
+}
+.pricingRow {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-8xs);
+}
+.seoMonitoring {
+  width: 143px;
+  position: relative;
+  line-height: 12px;
+  flex-shrink: 0;
+}
+.frameGroup,
+.pricingRows {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pricingRows {
+  height: 140px;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--body-s-size);
+}
+.frameGroup {
+  gap: var(--gap-21xl);
+  z-index: 2;
+}
+.frameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  z-index: 1;
+  margin-top: -160px;
+}
+.frameParent,
+.pricingCard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+}
+.pricingCard {
+  height: 500px;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-160xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--heading-6);
+}
+@media screen and (max-width: 450px) {
+  .pricing {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .pricingRows {
+    height: 140px;
+  }
+  .pricingCard {
+    gap: var(--gap-70xl);
+  }
+}
